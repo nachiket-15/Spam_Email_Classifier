@@ -36,6 +36,19 @@ Two machine learning algorithms are explored in this project:
 
 Hyperparameters of the machine learning models are tuned using GridSearchCV, an exhaustive search technique that evaluates model performance across various hyperparameter combinations to find the optimal settings.
 
+## Project Structure
+
+The project consists of the following files:
+
+- `05_Random_Forest_Classifier_Through_Cross_Validation.ipynb`: Jupyter Notebook containing code for building a basic Random Forest model with cross-validation.
+- `05_Random_Forest_Classifier_Through_Holdout_Test_Methods.ipynb`: Jupyter Notebook containing code for building a Random Forest model with holdout test methods.
+- `05_Random_Forest_Classifer_Evaluation_With_GridSearchCV.ipynb`: Jupyter Notebook containing code for evaluating Random Forest with GridSearchCV.
+- `05_Gradient_Boosting_With_Grid_Search.ipynb`: Jupyter Notebook exploring Gradient Boosting model with grid-search.
+- `05_Gradient_Boosting_With_GridSearchCV.ipynb`: Jupyter Notebook evaluating Gradient Boosting with GridSearchCV.
+- `06_Final.ipynb`: Jupyter Notebook containing final evaluation of models.
+- `SMSSpamCollection.tsv`: Dataset file containing SMS messages labeled as spam or ham.
+- `README.md`: This file.
+
 ## Conclusion
 
 Based on the evaluation results, the Random Forest model outperforms the Gradient Boosting model in terms of precision, accuracy, and computational efficiency. Both models achieve the same recall score. The README file provides insights into the data processing steps, feature engineering, model selection, hyperparameter tuning, and conclusions drawn from the project.
